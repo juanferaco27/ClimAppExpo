@@ -1,0 +1,22 @@
+Instrucciones para instalar el proyecto
+
+1 - Clonar el proyecto
+
+2 - Instalar librerias:
+
+Navigation : npm install @react-navigation/native
+Safe Area : npm install react-native-screens react-native-safe-area-context
+Stack : npm install @react-navigation/native-stack
+Gesture handler: npm install --save react-native-gesture-handler
+Bottom Tabs: npm install @react-navigation/bottom-tabs
+Iconos de Elements: npm install react-native-elements
+                    npm install react-native-vector-icons
+                    npx react-native link react-native-vector-icons
+Maps: npm install react-native-maps --save-exact
+Async-storage: npm install @react-native-async-storage/async-storage
+
+3 - Instalar el resto de librerias: npm install
+
+4 - Cambiar al directorio de la aplicacion
+
+5 - Ejecutar npx react-native run-android
